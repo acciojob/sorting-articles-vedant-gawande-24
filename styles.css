@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#band {
+    width: 650px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    list-style-type: square;
+}
+
+#band li {
+    padding: 24px 20px 24px 60px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 24px;
+    color: black;
+}
